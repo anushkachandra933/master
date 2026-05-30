@@ -87,6 +87,8 @@ nav{
 
 .options select{
     border : none;
+    outline : none;
+    cursor : pointer;
 }
 
 .icons-box{
@@ -104,6 +106,7 @@ nav{
     justify-content : center;
     align-items : center;
     gap : 5px;
+    cursor: pointer;
 }
 
 main{
@@ -124,6 +127,7 @@ main{
 .ad-banners{
     flex : 1;
     height: 200px;
+    cursor: pointer;
 }
 
 #banner-item1,#banner-item2{
@@ -193,6 +197,7 @@ main{
     display: flex;
     flex-direction: column;
     justify-content: center;
+    cursor: pointer;
 }
 
 .decor img{
@@ -221,4 +226,5 @@ main{
     height : 230px;
     width : 190px;
     border-radius: 15px;
+    cursor: pointer;
 }
